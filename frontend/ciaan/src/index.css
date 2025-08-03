@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.fade-enter {
+    @apply opacity-0 translate-y-5;
+  }
+  
+  .fade-enter-active {
+    @apply opacity-100 translate-y-0 transition-all duration-300 ease-in-out;
+  }
+  
+  .fade-exit {
+    @apply opacity-100 translate-y-0;
+  }
+  
+  .fade-exit-active {
+    @apply opacity-0 translate-y-5 transition-all duration-300 ease-in-out;
+  }
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
